@@ -1,0 +1,27 @@
+.two-cols {
+  @include clearfix;
+}
+
+.two-cols__col {
+  float: none;
+  width: 100%;
+
+  @include mq(800) {
+    width: 50%;
+    float: left;
+  }
+
+    &:first-child {
+      @include mq(800) {
+        padding-right: 30px;
+      }
+    }
+
+    &:last-child {
+      @include mq(800) {
+        padding-left: 30px;
+      }
+    }
+
+
+}

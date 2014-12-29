@@ -1,0 +1,19 @@
+@import "settings.variables";
+
+@import "tools.mixins",
+        "tools.functions";
+
+@import "generic.normalize",
+        "generic.reset";
+
+@import "base.page";
+
+@import "objects.wrapper",
+        "objects.two-cols";
+
+@import "component.hero",
+        "component.quote-section",
+        "component.cta-section",
+        "component.owl",
+        "component.magnificpopup";
+

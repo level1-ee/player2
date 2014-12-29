@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-686.000000, -527.000000)" stroke="#FF2742">
+            <circle id="Oval-1" fill="#19222E" sketch:type="MSShapeGroup" cx="720" cy="561" r="33"></circle>
+            <path d="M708,576 L708,547 L737,561.5 L708,576 Z" id="Triangle-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

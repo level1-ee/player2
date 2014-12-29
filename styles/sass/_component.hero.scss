@@ -1,0 +1,150 @@
+canvas {
+  position: absolute;
+  // z-index: -10;
+  height: 100vh;
+}
+.hero-section {
+  height: 100vh;
+  border-top: 3px solid $red;
+}
+
+.quote-section {
+  position: relative;
+  // top: 100vh;
+}
+
+.hero-block {
+  // margin-top: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translatex(-50%) translatey(-50%);
+}
+
+.hero-title {
+  @include ir;
+  background-image: url('../../img/hero-title.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 58px;
+
+  @include mq(500) {
+    width: 375px;
+    height: 58px;
+  }
+}
+
+.level1-logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hero-block__searching {
+  @include clearfix;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 77%;
+
+  @include mq(500) {
+    font-size: 100%;
+  }
+}
+
+.hero-block__label {
+  float: left;
+  width: 28%;
+
+  span {
+    color: $red;
+  }
+
+}
+
+.hero-block__list {
+  margin-bottom: 200px;
+  list-style-type: none;
+  // border-right: 2px solid $red;
+  // text-align: right;
+  position: relative;
+  width: 72%;
+
+  &:after {
+    content:'|';
+    color: $red;
+    position: absolute;
+    right: 0;
+  }
+
+  li {
+    // width: 100%;
+    display: block;
+    // text-align: right;
+    // float: right;
+    // display: none;
+
+  }
+
+}
+
+.video-btn {
+  @include clearfix;
+
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 40px;
+  border: 1px solid $light-blue;
+  border-radius: 2px;
+  color: $light-blue;
+  font-weight: 700;
+
+  transition: 1s;
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%) translatey(-50%);
+  }
+
+  &:hover {
+    background-color: $light-blue;
+    color: $light;
+
+    transition: .4s;
+  }
+
+}
+
+.video-btn__view,
+.video-btn__video {
+  position: relative;
+  top: 8px;
+  text-transform: uppercase;
+  padding: 0 30px;
+}
+
+.video-btn__view {
+  float: left;
+}
+
+.video-btn__video {
+  float: right;
+}
+
+.read-more {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translatex(-50%) translatey(0);
+  transition: .4s;
+
+  &:hover {
+    transform: translatex(-50%) translateY(5px);
+    transition: 1s;
+  }
+}

@@ -1,0 +1,43 @@
+@mixin mq($point, $query1: min, $query2: width) {
+  @media screen and (#{$query1}-#{$query2}: $point / 16 +em) {
+    @content;
+  }
+}
+
+@mixin orient($orientation: landscape) {
+  @media (orientation : $orientation) {
+    @content;
+  }
+}
+
+
+
+@mixin ir {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  // background: url(test.png);
+  // width: 300px;
+  // height: 75px;
+}
+
+@mixin clearfix() {
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin un-clearfix() {
+  &:before, &:after {
+    content: none;
+    display: auto;
+  }
+  &:after {
+    clear: none;
+  }
+}

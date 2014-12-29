@@ -1,0 +1,10 @@
+body {
+  background-color: $dark-blue;
+  font-family: $ff-body;
+  color: $light;
+}
+
+::selection {
+  background-color: $red;
+  color: #fff;
+}

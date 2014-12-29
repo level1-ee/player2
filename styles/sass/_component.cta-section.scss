@@ -1,0 +1,65 @@
+.cta-section {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  h2 {
+    font-size: rem-calc(15);
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: $light-blue;
+    border-bottom: 1px solid $light-blue;
+  }
+
+  .intro-box {
+    border-bottom: 1px solid $light-blue;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+  }
+
+  margin-top: 200px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: rem-calc(16);
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  @include mq(500) {
+    font-size: rem-calc(20);
+  }
+
+  .cta-btn-wrapper {
+    text-align: center;
+    margin-bottom: 300px;
+  }
+
+  .cta-btn {
+    padding: 15px 50px;
+    border: 1px solid $red;
+    color: $red;
+    text-decoration: none;
+    font-size: rem-calc(19);
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline-block;
+    transition: .5s;
+
+    &:hover {
+      background-color: $red;
+      color: #fff;
+    }
+  }
+
+}
+
+.cta-btn-helper {
+  text-align: center;
+  margin-top: 3px;
+  font-size: rem-calc(13);
+  text-transform: uppercase;
+  color: $light-blue;
+  letter-spacing: 1px;
+}
